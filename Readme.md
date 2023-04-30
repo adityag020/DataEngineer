@@ -1,4 +1,4 @@
-## Case Study:
+## Case Study: To create Pyspark Application
 
 ### Analytics: 
 Application should perform below analysis and store the results for each analysis.
