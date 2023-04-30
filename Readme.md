@@ -20,7 +20,7 @@ Application should perform below analysis and store the results for each analysi
 
 ### Process to follow:
 1. Create virtual environment and install all packages and dependencies (if using VS Code).
-2. Go to Project Directory: `$ cd DataEngineering_CaseStudy`
+2. Go to Project Directory: `$ cd DataEngineer`
 3. In Bash terminal, run `$ make`. It will run all the commands in Makefile and build the project to run via spark-submit. In this process, a  new folder with name "dist" will be created, and the code artefacts will be copied into it.
 4. Using Dist, src.zip file as an argument with py files will be submitted to spark-submit to run against the cluster.
 5. In CLI, run `$ cd Dist && spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py && cd ..`
